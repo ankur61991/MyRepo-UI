@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="18171" started-at="2021-08-22T11:46:15 IST" finished-at="2021-08-22T11:46:33 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="18171" started-at="2021-08-22T11:46:15 IST" finished-at="2021-08-22T11:46:33 IST">
+      <class name="org.myrepo.DemoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.myrepo.DemoTest@23e028a9]" name="setUp" is-config="true" duration-ms="2097" started-at="2021-08-22T11:46:15 IST" finished-at="2021-08-22T11:46:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.myrepo.DemoTest@23e028a9]" name="flightTest" duration-ms="7816" started-at="2021-08-22T11:46:18 IST" data-provider="getData" finished-at="2021-08-22T11:46:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=HYD, destination2=BLR, origin=MAA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.myrepo.DemoTest@23e028a9]" name="flightTest" duration-ms="7042" started-at="2021-08-22T11:46:26 IST" data-provider="getData" finished-at="2021-08-22T11:46:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=HYD, destination2=MAA, origin=DEL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.myrepo.DemoTest@23e028a9]" name="tearDown" is-config="true" duration-ms="683" started-at="2021-08-22T11:46:33 IST" finished-at="2021-08-22T11:46:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.myrepo.DemoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
